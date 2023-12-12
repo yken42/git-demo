@@ -14,6 +14,7 @@
 }
 
 .navbar-section{
+    background-color: white;
     display: flex;
     flex-direction: column;
     min-height: 90%;
@@ -78,13 +79,188 @@
 /* Body Section */
 
 .hero{
-    background-color: green;
-    height: 90%;
+    display: flex;
     width: 85%;
+    flex-wrap: wrap;
+    
 }
 
+.top-section{
+    position: relative;
+}
+
+.hero-img{
+    position: relative;
+    width: 100%;
+    height:100%;
+    /* visibility: hidden; */
+}
+.titles{
+    position: absolute;
+    top: 40rem;
+    z-index: 1;
+}
+#title-1{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30rem;
+}
+#title-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 40rem;
+    background-color: black;
+    color: white;
+}
+
+#title-1 h2{
+    font-style: italic;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#title-2 h3{
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.hero-nav{
+    width: 100%;
+    background-color: #EFF8F7;
+    
+}
+
+.hero-list{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.hero-list-item{
+    color: #59B5B3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    height: 100%;
+}
+
+.hero-list-item:hover{
+    background-color: #cef0f0;
+}
+
+.hero-list-item h2{
+    
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.hero-list-item p{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.mail-logo{
+    margin: 1rem;
+}
+
+.subscription{
+    display: flex;
+    width: 100%;
+    margin: 5rem 0;
+    border-top: 1px dashed rgba(128, 128, 128, 0.401);
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.401);
+    align-items: center;
+    padding: 2rem 0;
+}
+.sub-text{
+    width: 60%;
+    padding-left: 4rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-form form input{
+    width: 28rem;
+    height: 3rem;
+}
+
+.sub-form form button{
+    border: 1px solid black;
+    background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 3rem;
+    outline: 0;
+    padding: 0 11px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-form form button:hover{
+    border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.blog{
+    width: 20%;
+}
+
+.blog-img{
+    width: 25rem;
+    height: 20rem;
+    border: 1px solid rgba(128, 128, 128, 0.431);
+    padding: 1rem;
+}
+
+.blog h3{
+    font-size: 2rem;
+    color:#59B5B3;
+    margin: 1rem 0;
+}
+
+.blog p{
+    font-style: italic;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.blog time{
+    color: grey;
+    font-size: 1.4rem;
+}
+
+.blog span{
+    color: #59B5B3;
+}
+
+/* Footer section */
 .footer{
     width: 100%;
     background-color: grey;
     height: 10%;
 }
+
+
+
+
+
