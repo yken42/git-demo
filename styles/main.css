@@ -1,0 +1,90 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+/* Navbar section */
+
+.container {
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.navbar-section{
+    display: flex;
+    flex-direction: column;
+    min-height: 90%;
+    width: 15%;
+}
+
+
+.list-item{
+    padding: 1.5rem 0;
+}
+
+.navbar-section ul li a{
+    color: #59B5B3;
+    padding: 1rem;
+}
+
+.navbar-section ul li a:hover{
+    color: #41908e;
+}
+
+.title-img{
+    width: 80%;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+.nav-socials{
+    padding-top: 2rem;
+    width: 90%;
+}
+
+.nav-socials a{
+    color: #59B5B3;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border: 1px solid rgba(183, 181, 181, 0.801);
+    border-radius: 0.4rem;
+    padding: 10px;
+}
+
+.nav-socials .link-box{
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.nav-socials h2{
+    /* border-bottom: 2px dotted grey; */
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+.nav-socials p{
+    margin: 1rem 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+/* Body Section */
+
+.hero{
+    background-color: green;
+    height: 90%;
+    width: 85%;
+}
+
+.footer{
+    width: 100%;
+    background-color: grey;
+    height: 10%;
+}

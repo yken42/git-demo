@@ -1,0 +1,13 @@
+{
+  "name": "base-static",
+  "author": {
+    "name": "Yariv Gilad",
+    "email": "yariv.gilad@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/yarivgilad/",
+    "website": "https://yarivgilad.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "keywords": [],
+  "description": ""
+}
